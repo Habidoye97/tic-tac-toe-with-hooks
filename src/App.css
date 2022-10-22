@@ -1,5 +1,6 @@
 .header {
   background: rgba(192, 295, 109, 95);
-  border-bottom: 5px solid black;
+  border-bottom: .25rem solid black;
   text-align: center;
+  padding: .5rem;
 }
