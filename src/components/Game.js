@@ -39,7 +39,7 @@ const Game = () => {
   }
   return (
     <div>
-      <h1>REACT TIC-TAC-TOE-GAME WITH HOOKS</h1>
+      <h1 className='header'>REACT TIC-TAC-TOE-GAME WITH HOOKS</h1>
       <Board squares={history[stepNumber]} onClick={handleClick} />
       <div className='history-wrapper'>
         <div>
