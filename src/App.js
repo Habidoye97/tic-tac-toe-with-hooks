@@ -1,9 +1,12 @@
 
 import './App.css';
+import Game from './components/Game';
 
 function App() {
   return (
-    <div> This is Abiodun</div>
+    <>
+      <Game/>
+    </>
   );
 }
 
