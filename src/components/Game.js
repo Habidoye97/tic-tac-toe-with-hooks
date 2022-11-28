@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Board from './Board';
 import { calculateWinner } from './helper';
 
-const Game = () => {
+const Game = ({players}) => {
   const [history, setHistory] = useState([Array(9).fill(null)])
   const [stepNumber, setStepNumber] = useState(0);
   const [xIsNext, setXIsNext] = useState(true)
@@ -44,6 +44,7 @@ const Game = () => {
         <li key={move}>
           <button onClick={() => jumpTo(move)}>{destination}</button>
         </li>
+        
       );
     });
   
